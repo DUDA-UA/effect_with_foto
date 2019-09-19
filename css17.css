@@ -1,0 +1,28 @@
+#first{
+    width: 542px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+    left:30px;
+    overflow: hidden;
+   
+}
+
+#two, #three{
+    width: 542px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    transition: all ease 100ms;
+}
+
+#two{
+    background-color: yellow;
+}
+
+#three{
+    background-color: blue;
+}
